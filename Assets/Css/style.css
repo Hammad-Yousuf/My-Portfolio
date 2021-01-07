@@ -34,6 +34,13 @@ ul li a:hover{
     height: 100vh;
     z-index: -1;
 }
+.animation{
+    animation: showcase 3s;
+}
+@keyframes showcase{
+    0%{color: #fff;}
+    100%{color: #339aea;}
+}
 .showcase-container{
     position: relative;
     top: 40vh;
