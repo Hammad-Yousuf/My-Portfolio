@@ -1,0 +1,100 @@
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+}
+.custom-nav{
+    opacity: 80% !important;
+    background-color: #000;
+}
+.logo{
+    position: relative;
+    left: 2vh;
+}
+.links{
+    color: #fff !important;
+    /* font-weight: 500 !important; */
+}
+ul li a:hover{
+    color: #339aea !important;
+}
+#Showcase{
+    width: 100%;
+    height: 100vh;
+}
+.bg-img{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../Images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.showcase-container{
+    position: relative;
+    top: 40vh;
+}
+.custom-text{
+    color: #339aea;
+    font-size: 70px;
+}
+
+#about-me{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+.about-text{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.skills-inline{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+.skill{
+    margin: 0 10px;
+    width: 13vh;
+    cursor: pointer;
+}
+.skill:hover{
+    opacity: 80%;
+}
+#portfolio{
+    background-color: #fff;
+}
+.portfolio-container{
+    margin-top: 5vh;
+}
+div.card{
+    cursor: pointer;
+}
+div.card:hover{
+    opacity: 80%;
+}
+
+#contact{
+    background-color: #fff;
+    padding-top: 5vh;
+    overflow: hidden;
+    padding-bottom: 20vh;
+}
+.phone:hover{
+    color: #339aea;
+    cursor: pointer;
+}
+footer{
+    background-color: #f4f4f4;
+    overflow: hidden;
+    height: 10vh;
+}
+footer p{
+    margin-top: 2vh;
+}
