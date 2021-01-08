@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T2YYSLPRLT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-T2YYSLPRLT');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
     <title>M. Hammad Yousuf | Portfolio | Front-End-Developer</title>
     <link rel="shortcut icon" href="assets/Images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="Assets/Css/all.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="Assets/Css/style.css">
     <script src="assets/JS/all.js"></script>
     <!-- Latest compiled and minified CSS -->
@@ -32,11 +24,11 @@
 </head>
 <body>
     <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg fixed-top custom-nav">
+        <nav class="navbar navbar-expand-md fixed-top custom-nav">
             <a href="index.html" class="navbar-brand">
-                <img src="assets/Images/logo.png" alt="M. Hammad Yousuf" class="logo">
+                <img src="assets/Images/favicon.png" alt="M. Hammad Yousuf" class="logo">
             </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target='#navbarMenu'>
+            <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target='#navbarMenu'>
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse ml-auto w-100" id="navbarMenu">
@@ -57,17 +49,17 @@
             </div>
         </nav>
     <!-- SHOWCASE -->
-        <section id="Showcase">
+        <section id="Showcase" class="w-100">
             <div class="bg-img"></div>
             <div class="jumbotron jumbotron-fluid text-center w-100" style="background: transparent; color: #fff;">
                 <div class="container">
-                  <h1 class="display-4 animation" style="color: #339aea; font-size: 15vh; font-weight: 500; margin-top: 20vh;">Front End Developer</h1>
+                  <h1 class="display-4 animation" style="color: #339aea; font-size: 11vh; font-weight: 500; margin-top: 20vh;">Front End Developer</h1>
                   <p class="lead" style="font-size: 30px; font-weight: 500;">With a passion to Learn</p>
                 </div>
               </div>
         </section>
     <!-- About ME -->
-        <section id="about-me">
+        <section id="about-me" class="w-100">
             <div class="jumbotron jumbotron-fluid" style="background: transparent; height: auto;">
                 <div class="container">
                     <div class="row">
@@ -97,29 +89,29 @@
               </div>
         </section>
     <!-- PORTFOLIO -->
-        <section id="portfolio">
+        <section id="portfolio" class="w-100">
             <div class="container">
                 <h1 class="text-center" style="font-size: 50px; text-transform: uppercase;">Portfolio</h1>
                 <p class="text-center" style="font-size: 20px;">List of my website designs</p>
                 <div class="container portfolio-container">
                    <div class="card-columns">
                        <div class="card">
-                           <img src="assets/Images/000webhost.PNG" alt="M. Hammad Yousuf First Portfolio" class="card-img">
+                           <img src="assets/Images/000webhost.PNG" alt="M. Hammad Yousuf First Portfolio" class="card-img" style="box-shadow: 0px 0px 0px 10px #0000;">
                        </div>
                        <div class="card">
-                        <img src="assets/Images/rps.PNG" alt="Rock Paper Scissor Game" class="card-img">
+                        <img src="assets/Images/rps.PNG" alt="Rock Paper Scissor Game" class="card-img" style="box-shadow: 0 0 0 10px #0000;">
                     </div>
                     <div class="card">
-                        <img src="assets/Images/snipping.PNG" alt="SeaShore" class="card-img">
+                        <img src="assets/Images/snipping.PNG" alt="SeaShore" class="card-img" style="box-shadow: 0 0 0 10px #0000;">
                     </div>
                     <div class="card">
-                        <img src="assets/Images/soap-company.PNG" alt="Mukhtar Soap Compnay" class="card-img">
+                        <img src="assets/Images/soap-company.PNG" alt="Mukhtar Soap Compnay" class="card-img" style="box-shadow: 0 0 0 10px #0000;">
                     </div>
                     <div class="card">
-                        <img src="assets/Images/htech.PNG" alt="Hammad Tech" class="card-img">
+                        <img src="assets/Images/htech.PNG" alt="Hammad Tech" class="card-img" style="box-shadow: 0 0 0 10px #0000;">
                     </div>
                     <div class="card">
-                        <img src="assets/Images/aptech.png" alt="Aptech's Website Clone" class="card-img">
+                        <img src="assets/Images/aptech.png" alt="Aptech's Website Clone" class="card-img" style="box-shadow: 0 0 0 10px #0000;">
                     </div>
                    </div>
                 </div>
@@ -127,7 +119,7 @@
         </section>
 
         <!-- Contact -->
-        <section id="contact">
+        <section id="contact" class="w-100" style="margin-top: 0;">
             <h1 class="text-center">Contact Me</h1>
             <br><br><br>
             <p class="phone text-center"><i class="fas fa-phone" style="color: #339aea;"></i>&nbsp;&nbsp;&nbsp; <span class="font-weight-bold phone">(+92) 343-1163620</span></p>
@@ -136,7 +128,7 @@
             <p class="phone text-center"><i class="fas fa-envelope" style="color: #339aea;"></i>&nbsp;&nbsp;&nbsp; <span class="font-weight-bold phone">yhammad64@yahoo.com</span></p>
         </section>
         <!-- Footer -->
-            <footer>
+            <footer class="w-100">
                 <p class="text-center">Copyright ©2021 My Portfolio by M.Hammad Yousuf.</p>
             </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
