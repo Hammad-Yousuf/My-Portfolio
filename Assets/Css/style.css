@@ -89,6 +89,9 @@ div.card:hover{
 #game{
     height: 30vh;
 }
+.game-bg{
+    background-color: #ee910e;
+}
 #contact{
     background-color: #fff;
     padding-top: 5vh;
