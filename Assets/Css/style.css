@@ -89,6 +89,10 @@ div.card{
 div.card:hover{
     opacity: 80%;
 }
+.design img{
+    width: 20vh;
+    height: auto;
+}
 #game{
     height: 30vh;
 }
