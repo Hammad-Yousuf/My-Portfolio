@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="R-P-S Assets/Css/style.css">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-dark">
+    <header>
+        <h1>Rock Paper Scissor</h1>
+    </header>
+    <div class="container">
+        <div class="score-board" id="board">
+        
+            <div id="user-label" class="score-badge">user</div>
+            <div id="comp-label" class="score-badge">comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+            <div id="green red"></div>
+        </div>
+    </div>
+    
+       <div class="container">
+        <div class="result text-center" >
+            <p style="font-size: 4vh;">Paper covers rock. You win!</p>
+        </div>
+       </div>
+       <div class="contianer">
+        <div class="choices">
+            <div class="choice" id="r">
+                <img src="assets/Images/Rock.png" alt="">
+            </div>
+            <div class="choice" id="p">
+                <img src="assets/Images/Paper.png" alt="">
+            </div>
+            <div class="choice" id="s">
+                <img src="assets/Images/Scissor.png" alt="">
+            </div>
+        </div>
+        <p id="action-message">
+            Make your move.
+        </p>
+    </div>
+    <div class="container text-center">
+        <button class="btn btn-outline-secondary btn-lg "><a href="https://mhammadyousuf.netlify.app">Get Back To Home Page </a></button>
+    </div>
+    <script src="R-P-S Assets/JS/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>
