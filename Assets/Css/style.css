@@ -93,7 +93,7 @@ div.card:hover{
     height: 30vh;
 }
 .game-bg{
-    background-color: #ee910e;
+    background: linear-gradient(to right, #D1913C,#FFD194);
 }
 #contact{
     background-color: #fff;
