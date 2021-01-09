@@ -86,7 +86,9 @@ div.card{
 div.card:hover{
     opacity: 80%;
 }
-
+div.designs img{
+    width: 20vh;
+}
 #contact{
     background-color: #fff;
     padding-top: 5vh;
