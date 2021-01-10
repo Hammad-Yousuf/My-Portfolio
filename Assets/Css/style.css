@@ -12,10 +12,6 @@ a button{
     opacity: 80% !important;
     background-color: #000;
 }
-.logo{
-    position: relative;
-    left: 2vh;
-}
 .links{
     color: #fff !important;
     /* font-weight: 500 !important; */
